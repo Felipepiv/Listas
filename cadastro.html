@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-4">
+    <h2>Cadastro de Usuários</h2>
+
+    <label>Nome</label>
+    <input type="text" class="form-control" id="nomeUser">
+
+    <br>
+    <button class="btn btn-primary" type="button" onclick="salvarUser()">Salvar</button>
+</div>
+
+<div class="container mt-4">
+    <table class="table table-striped" id="tabela">
+        <tr>
+            <th>Nome Usuário</th>
+            <th>Ações</th>
+        </tr>
+    </table>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
